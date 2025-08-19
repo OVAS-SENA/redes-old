@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Módulo 3: Instalación Física y Cableado</title>
+
+    <!-- Script de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Archivos CSS de Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+
+    <!-- Tema y estilos del SENA -->
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/sena-theme.css">
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/styles.css">
+    <style>
+        /* Estilo para la leyenda de colores del cableado */
+        .color-swatch {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            vertical-align: middle;
+            margin-right: 0.5em;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Diapositiva de Título Principal -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image2.png"
+                data-background-size="contain">
+                <div class="absolute top-[32%] left-0 w-full flex flex-col items-start px-16 text-left">
+                    <h2 class="text-[var(--color-mine-shaft-700)] text-[1.1rem] font-bold m-0 leading-none mb-1">
+                        Módulo 3</h2>
+                    <h3 class="text-[var(--color-mine-shaft-700)] text-[2.2rem] font-extrabold m-0 leading-tight mb-2">
+                        Instalación Física y Cableado Estructurado</h3>
+                    <p class="text-[var(--color-mine-shaft-800)] text-base mb-4 max-w-xl">
+                        Del diseño en papel a la realidad. Aprende las técnicas y buenas prácticas para un montaje
+                        limpio, seguro y duradero.
+                    </p>
+                    <p>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Diego Alonso Ojeda Medina
+                    </div>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Centro Minero - Regional Boyacá
+                    </div>
+                    <a href="mailto:dojedam@sena.edu.co"
+                        class="text-sm font-semibold text-[var(--color-apple-600)]">dojedam@sena.edu.co</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- INICIO LECCIÓN 1 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 1 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 1: Herramientas
+                            y Normas de Seguridad</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1.5 horas</p>
+                        <p class="mt-6 text-base font-semibold">Presiona la flecha hacia abajo para comenzar</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-lightning-yellow-50)] border-l-8 border-[var(--color-lightning-yellow-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-lightning-yellow-400)] bg-[var(--color-lightning-yellow-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span
+                                        class="text-3xl font-bold text-[var(--color-lightning-yellow-800)] mr-2">“</span>
+                                    Hoy vamos a conocer a nuestros mejores amigos en el campo: las herramientas.
+                                    <br>
+                                    <span
+                                        class="block mt-2 text-base font-normal text-[var(--color-lightning-yellow-800)]">
+                                        Pero recuerden, la seguridad no es una opción, es la base de un trabajo bien
+                                        hecho.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.2: Kit de Herramientas -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">1. El Kit de Herramientas Esencial</h4>
+                    <div class="grid md:grid-cols-3 gap-6 text-left">
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-apple-700)]">Herramientas Eléctricas
+                            </h5>
+                            <ul class="list-disc list-inside text-sm space-y-1">
+                                <li>Taladro Percutor Inalámbrico</li>
+                                <li>Juego de Brocas (Muro, Metal)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-apple-700)]">Herramientas Manuales</h5>
+                            <ul class="list-disc list-inside text-sm space-y-1">
+                                <li>Destornilladores (Estrella/Pala)</li>
+                                <li>Alicates, Pinzas y Cortafrío</li>
+                                <li>Navaja, Nivel y Cinta Métrica</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-apple-700)]">Especializadas</h5>
+                            <ul class="list-disc list-inside text-sm space-y-1">
+                                <li>Ponchadora Crimpadora RJ45</li>
+                                <li>Pelacables UTP/Coaxial</li>
+                                <li>Tester de Cable de Red</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.3: Normas de Seguridad -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">2. ¡La Seguridad es lo Primero! (EPP)</h4>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-red-100 border-2 border-red-300 p-4 rounded-lg text-center fragment">
+                            <h5 class="font-extrabold text-lg mb-2 text-red-700">EPP</h5>
+                            <p class="text-sm">Usa <span class="font-bold">SIEMPRE</span> Gafas de Seguridad al
+                                taladrar. Usa Guantes y Botas de Seguridad.</p>
+                        </div>
+                        <div class="bg-red-100 border-2 border-red-300 p-4 rounded-lg text-center fragment">
+                            <h5 class="font-extrabold text-lg mb-2 text-red-700">Trabajo en Alturas</h5>
+                            <p class="text-sm">Inspecciona la escalera. Mantén <span class="font-bold">3 puntos de
+                                    contacto</span>. No te estires, mueve la escalera.</p>
+                        </div>
+                        <div class="bg-red-100 border-2 border-red-300 p-4 rounded-lg text-center fragment">
+                            <h5 class="font-extrabold text-lg mb-2 text-red-700">Riesgo Eléctrico</h5>
+                            <p class="text-sm">Baja los breakers. Usa herramientas aisladas. Asume que todo cable tiene
+                                corriente.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 1 -->
+
+            <!-- INICIO LECCIÓN 2 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 2 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image4.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center text-white">
+                        <h2 class="text-[2.2rem] font-bold">Lección 2: Montaje Físico de Cámaras</h2>
+                        <div class="w-[150px] h-[3px] bg-white my-3"></div>
+                        <p class="text-base font-normal">Tiempo estimado: 1 hora</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-turquoise-blue-50)] border-l-8 border-[var(--color-turquoise-blue-500)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-turquoise-blue-400)] bg-[var(--color-turquoise-blue-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span
+                                        class="text-3xl font-bold text-[var(--color-turquoise-blue-700)] mr-2">“</span>
+                                    Una cámara mal montada puede quedar suelta o con las conexiones expuestas a la
+                                    lluvia de Boyacá.
+                                    <br>
+                                    <span
+                                        class="block mt-2 text-base font-normal text-[var(--color-turquoise-blue-700)]">
+                                        Vamos a aprender a hacerlo de forma robusta y profesional.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.2: Proceso de Montaje -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex items-center gap-12 h-full">
+                        <div class="flex-1 text-left">
+                            <h4 class="text-[1.2rem] font-bold mb-4">1. Proceso de Montaje Paso a Paso</h4>
+                            <ol class="list-decimal list-inside space-y-3 text-base">
+                                <li class="fragment"><strong>Marcar los Puntos:</strong> Usa la plantilla de la cámara
+                                    y un nivel.</li>
+                                <li class="fragment"><strong>Perforar:</strong> Selecciona la broca correcta para el
+                                    chazo (usualmente 1/4").</li>
+                                <li class="fragment"><strong>Insertar los Chazos:</strong> Deben entrar justos en los
+                                    agujeros.</li>
+                                <li class="fragment"><strong>Fijar la Base:</strong> Atornilla la base de la cámara
+                                    firmemente.</li>
+                            </ol>
+                        </div>
+                        <div class="flex-1 bg-white p-4 rounded-lg shadow-lg fragment">
+                            <img src="https://ssdielect.com/12386-large_default/caja-paso-con-empague.jpg"
+                                alt="Caja de Paso" class="mx-auto mb-2 rounded-md h-32 object-contain">
+                            <h5 class="font-bold text-lg mb-2 text-center text-[var(--color-turquoise-blue-700)]">La
+                                Importancia de la Caja de Paso</h5>
+                            <p class="text-sm text-center">¡Esencial para proteger las conexiones del sol y la lluvia!
+                                Una instalación profesional en exteriores <span class="font-bold">SIEMPRE</span> la
+                                usa.</p>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+            <!-- FIN LECCIÓN 2 -->
+
+            <!-- INICIO LECCIÓN 3 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 3 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 3: Cableado y
+                            Conexiones</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 2 horas (¡Mucha
+                            práctica!)</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-fun-green-50)] border-l-8 border-[var(--color-fun-green-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-fun-green-400)] bg-[var(--color-fun-green-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-fun-green-800)] mr-2">“</span>
+                                    Llegamos al sistema nervioso de nuestra instalación. Un mal conector es como un
+                                    nervio dañado.
+                                    <br>
+                                    <span class="block mt-2 text-base font-normal text-[var(--color-fun-green-800)]">
+                                        Hoy van a practicar hasta que sea algo natural para ustedes.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.2: Conexiones -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Sistema Análogo -->
+                        <div class="bg-white p-4 rounded-lg shadow-lg text-left fragment">
+                            <h5 class="text-lg font-bold mb-2 text-[var(--color-apple-700)]">1. Análogo: UTP + Baluns
+                            </h5>
+                            <p class="text-sm mb-2">Se usa un par de hilos para video y otro para energía.</p>
+                            <ol class="list-decimal list-inside text-sm space-y-1">
+                                <li>Pelar el cable UTP (2 cm).</li>
+                                <li>Elegir par para video (ej. azul) y para energía (ej. café).</li>
+                                <li>Conectar par de video al Balun (color a +, blanco/rayado a -).</li>
+                                <li>Conectar par de energía al conector DC (¡respetar polaridad!).</li>
+                                <li>Guardar conexiones en la caja de paso.</li>
+                            </ol>
+                        </div>
+                        <!-- Sistema IP -->
+                        <div class="bg-white p-4 rounded-lg shadow-lg text-left fragment">
+                            <h5 class="text-lg font-bold mb-2 text-[var(--color-apple-700)]">2. IP: UTP + RJ45 (Norma
+                                T568B)</h5>
+                            <div class="text-sm font-mono p-2 bg-gray-100 rounded text-xs leading-tight">
+                                <span class="color-swatch" style="background-color: #ffc87c;"></span>Blanco-Naranja
+                                <br>
+                                <span class="color-swatch" style="background-color: #ff8000;"></span>Naranja <br>
+                                <span class="color-swatch" style="background-color: #a0e6a0;"></span>Blanco-Verde <br>
+                                <span class="color-swatch" style="background-color: #0000ff;"></span>Azul <br>
+                                <span class="color-swatch" style="background-color: #a0c8ff;"></span>Blanco-Azul <br>
+                                <span class="color-swatch" style="background-color: #008000;"></span>Verde <br>
+                                <span class="color-swatch" style="background-color: #c8a07c;"></span>Blanco-Café <br>
+                                <span class="color-swatch" style="background-color: #804000;"></span>Café
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.3: Actividad Práctica -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-lightning-yellow-100)] border-t-8 border-[var(--color-lightning-yellow-500)] text-[var(--color-mine-shaft-900)] p-6 rounded-lg shadow-xl text-center">
+                        <h4 class="font-bold text-2xl mb-3">Actividad Práctica Intensiva</h4>
+                        <p class="text-lg">¡A ponchar! El objetivo es que cada aprendiz ponche al menos <span
+                                class="font-extrabold text-2xl text-[var(--color-apple-700)]">5</span> cables RJ45 que
+                            pasen la prueba del tester sin errores. La repetición es la clave para dominar esta
+                            habilidad.</p>
+                    </div>
+                </section>
+
+            </section>
+            <!-- FIN LECCIÓN 3 -->
+
+            <!-- Diapositiva Final -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image8.png"
+                data-background-size="cover" data-transition="fade">
+                <div class="bg-black bg-opacity-50 text-white mt-10 p-4 rounded-lg flex flex-col items-center">
+                    <h2 class="font-bold [letter-spacing:0.14em!important]">¡GRACIAS!</h2>
+                    <h6 class="text-lg mb-1">&copy; 2025 - Módulo de Instalación y Cableado</h6>
+                    <div class="text-base text-gray-300 mb-1">Diseñado para instructores y aprendices del SENA - Centro
+                        Minero</div>
+                    <div class="text-base font-semibold mb-0">Diego Alonso Ojeda Medina</div>
+                    <a href="mailto:dojedam@sena.edu.co" class="text-base font-semibold"
+                        style="color: var(--color-apple-600);">dojedam@sena.edu.co</a>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Archivos JS de Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        // Inicializa Reveal.js
+        Reveal.initialize({
+            slideNumber: true,
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide', // Transición por defecto
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            pdfSeparateFragments: false,
+            pdfMaxPagesPerSlide: 1
+        });
+    </script>
+</body>
+
+</html>

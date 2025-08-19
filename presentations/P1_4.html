@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Módulo 4: Configuración y Puesta en Marcha</title>
+
+    <!-- Script de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Archivos CSS de Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+
+    <!-- Tema y estilos del SENA -->
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/sena-theme.css">
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/styles.css">
+
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Diapositiva de Título Principal -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image2.png"
+                data-background-size="contain">
+                <div class="absolute top-[32%] left-0 w-full flex flex-col items-start px-16 text-left">
+                    <h2 class="text-[var(--color-mine-shaft-700)] text-[1.1rem] font-bold m-0 leading-none mb-1">
+                        Módulo 4</h2>
+                    <h3 class="text-[var(--color-mine-shaft-700)] text-[2.2rem] font-extrabold m-0 leading-tight mb-2">
+                        Configuración y Puesta en Marcha</h3>
+                    <p class="text-[var(--color-mine-shaft-800)] text-base mb-4 max-w-xl">
+                        Es hora de darle vida al sistema. Aprende a configurar el grabador y a entregar un proyecto
+                        totalmente funcional al cliente.
+                    </p>
+                    <p>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Diego Alonso Ojeda Medina
+                    </div>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Centro Minero - Regional Boyacá
+                    </div>
+                    <a href="mailto:dojedam@sena.edu.co"
+                        class="text-sm font-semibold text-[var(--color-apple-600)]">dojedam@sena.edu.co</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- INICIO LECCIÓN 1 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 1 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 1: Configuración
+                            Inicial del DVR/NVR</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1.5 horas</p>
+                        <p class="mt-6 text-base font-semibold">Presiona la flecha hacia abajo para comenzar</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-fun-green-50)] border-l-8 border-[var(--color-fun-green-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-fun-green-400)] bg-[var(--color-fun-green-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-fun-green-800)] mr-2">“</span>
+                                    Bienvenidos al centro de control. Ya hicimos el trabajo físico, ahora vamos a darle
+                                    cerebro a nuestro sistema.
+                                    <span class="block mt-2 text-base font-normal text-[var(--color-fun-green-800)]">
+                                        Una buena configuración inicial es la base de un sistema estable y confiable.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.2: Conexiones y Encendido -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">1. Conexiones Físicas y Primer Encendido</h4>
+                    <div class="grid md:grid-cols-2 gap-6 text-left">
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-apple-700)]">Paso 1: Instalar el Disco
+                                Duro (HDD)</h5>
+                            <p class="text-sm">Con el equipo <span class="font-bold">desconectado</span>, abre la tapa,
+                                conecta los cables de datos (SATA) y corriente al disco, y atorníllalo al chasis.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-apple-700)]">Paso 2: Conexiones Traseras
+                            </h5>
+                            <p class="text-sm">Conecta cámaras, monitor (HDMI/VGA), mouse (USB), cable de red al router
+                                y, <span class="font-bold">por último</span>, el adaptador de corriente.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.3: Asistente de Inicio -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">2. Asistente de Inicio y Formateo del Disco</h4>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-left">
+                        <p class="text-center mb-4 text-base">Al encender, el equipo iniciará un "Asistente de
+                            Configuración". <span class="font-bold text-red-600">¡No lo canceles!</span></p>
+                        <ol class="list-decimal list-inside space-y-2 text-sm">
+                            <li class="fragment"><strong>Crear Contraseña de Administrador:</strong> ¡El paso más
+                                importante! Elige una contraseña segura. Evita "admin" o "12345".</li>
+                            <li class="fragment"><strong>Ajustes Básicos:</strong> Configura Idioma (Español), Estándar
+                                de Video (NTSC) y Zona Horaria <span class="font-bold">(UTC-05:00 Bogotá)</span>.</li>
+                            <li class="fragment"><strong>Formatear Disco Duro:</strong> El asistente lo pedirá. Siempre
+                                hazlo para preparar el disco y asegurar una grabación sin errores.</li>
+                            <li class="fragment"><strong>Añadir Cámaras (en NVR):</strong> El asistente buscará y
+                                mostrará las cámaras IP en la red. Selecciónalas y haz clic en "Añadir".</li>
+                        </ol>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 1 -->
+
+            <!-- INICIO LECCIÓN 2 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 2 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image4.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center text-white">
+                        <h2 class="text-[2.2rem] font-bold">Lección 2: Configuración de Grabación</h2>
+                        <div class="w-[150px] h-[3px] bg-white my-3"></div>
+                        <p class="text-base font-normal">Tiempo estimado: 1 hora</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-blue-whale-50)] border-l-8 border-[var(--color-blue-whale-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-blue-whale-400)] bg-[var(--color-blue-whale-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-blue-whale-700)] mr-2">“</span>
+                                    Ahora tenemos que decirle al sistema 'cuándo' y 'cómo' debe recordar lo que ve.
+                                    <br>
+                                    <span class="block mt-2 text-base font-normal text-[var(--color-blue-whale-700)]">
+                                        Vamos a enseñarle a ser inteligente: a grabar solo cuando algo realmente sucede.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.2: Detección de Movimiento -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">Grabación por Detección de Movimiento: El Método Eficiente
+                    </h4>
+                    <p class="text-base mb-6">Ahorra espacio en disco y facilita encontrar eventos importantes.</p>
+                    <div class="grid md:grid-cols-3 gap-4 text-center">
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-blue-whale-700)]">1. Habilitar Detección
+                            </h5>
+                            <p class="text-sm">En el menú de Eventos, selecciona una cámara y marca la casilla
+                                "Habilitar Detección de Movimiento".</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-blue-whale-700)]">2. Configurar el Área
+                            </h5>
+                            <p class="text-sm">Usa la cuadrícula para deseleccionar zonas que puedan causar falsas
+                                alarmas (árboles, banderas, etc.).</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-lg mb-2 text-[var(--color-blue-whale-700)]">3. Ajustar
+                                Sensibilidad</h5>
+                            <p class="text-sm">Empieza con un valor medio. Una sensibilidad muy alta grabará por
+                                cualquier cosa.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.3: Horario de Grabación -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-blue-whale-100)] p-6 rounded-lg shadow-inner border-t-8 border-[var(--color-blue-whale-500)]">
+                        <h4 class="font-bold text-2xl text-center mb-2 text-[var(--color-blue-whale-800)]">Paso 4:
+                            Configurar el Horario (Schedule)</h4>
+                        <p class="text-base text-center">Ve al menú de Almacenamiento -> Horario. Asegúrate de que la
+                            línea de tiempo para cada cámara esté marcada con el color de "Movimiento" (amarillo o
+                            verde) 24/7. Esto le dice al DVR: "graba CADA VEZ que detectes movimiento".</p>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 2 -->
+
+            <!-- INICIO LECCIÓN 3 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 3 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 3: Acceso Remoto
+                            (P2P)</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1 hora</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-eminence-50)] border-l-8 border-[var(--color-eminence-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-eminence-400)] bg-[var(--color-eminence-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-eminence-800)] mr-2">“</span>
+                                    Esta es la parte que más valoran los clientes. Hoy, gracias a la tecnología P2P, es
+                                    tan fácil como escanear un código QR.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.2: Configuración P2P -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="bg-white p-6 rounded-lg shadow-lg text-left fragment">
+                            <h5 class="text-xl font-bold mb-4 text-[var(--color-eminence-700)]">En el DVR/NVR</h5>
+                            <ol class="list-decimal list-inside space-y-2 text-sm">
+                                <li><strong>Habilitar DHCP:</strong> En Red -> TCP/IP, marca "Habilitar DHCP".</li>
+                                <li><strong>Habilitar P2P:</strong> Ve a Red -> Acceso a Plataforma / P2P y marca
+                                    "Habilitar".</li>
+                                <li><strong>Crear Código de Verificación:</strong> Es una contraseña extra para
+                                    seguridad.</li>
+                                <li><strong>Verificar Estado:</strong> Debe cambiar a <span
+                                        class="font-bold text-green-600">"En línea"</span>.</li>
+                            </ol>
+                        </div>
+                        <div class="text-center fragment">
+                            <h5 class="text-xl font-bold mb-4">En el Celular</h5>
+                            <p class="text-sm mb-4">Descarga la app (Hik-Connect, DMSS), crea una cuenta y presiona
+                                "Añadir Dispositivo".</p>
+                            <img src="https://enpinfo.hikvision.com/unzip/20200529170651_25030_doc/GUID-581CD060-ABE7-4DD9-87A1-88F91BA482AA-high.png"
+                                alt="Código QR para configuración P2P" class="mx-auto rounded-lg shadow-md h-32">
+                            <p class="mt-4 text-sm">Escanea el QR, introduce el código de verificación, ¡y listo!</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 3 -->
+
+            <!-- INICIO LECCIÓN 4 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 4 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image4.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center text-white">
+                        <h2 class="text-[2.2rem] font-bold">Lección 4: Entrega al Cliente y Capacitación</h2>
+                        <div class="w-[150px] h-[3px] bg-white my-3"></div>
+                        <p class="text-base font-normal">Tiempo estimado: 30 minutos</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 4.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-rose-50 border-l-8 border-rose-500 text-rose-800 p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote class="p-4 my-2 border-s-4 border-rose-400 bg-rose-100 rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-rose-800 mr-2">“</span>
+                                    La instalación no termina hasta que el cliente se sienta cómodo y en control de su
+                                    nuevo sistema.
+                                    <br>
+                                    <span class="block mt-2 text-base font-normal text-rose-800">
+                                        Una buena entrega demuestra profesionalismo.
+                                    </span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 4.2: Checklist -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">Checklist de Entrega y Capacitación</h4>
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-left">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="fragment">
+                                <h5 class="font-bold text-lg mb-2 text-rose-700">En el Monitor (con Mouse)</h5>
+                                <ul class="list-disc list-inside text-sm space-y-1">
+                                    <li>Ver cámaras en pantalla completa.</li>
+                                    <li>Entrar al menú de "Reproducción".</li>
+                                    <li>Buscar grabaciones por fecha y hora.</li>
+                                    <li>Exportar un clip de video a una USB.</li>
+                                </ul>
+                            </div>
+                            <div class="fragment">
+                                <h5 class="font-bold text-lg mb-2 text-rose-700">En la App Móvil</h5>
+                                <ul class="list-disc list-inside text-sm space-y-1">
+                                    <li>Ver cámaras en vivo (SD/HD).</li>
+                                    <li>Acceder a grabaciones.</li>
+                                    <li>Tomar fotos y videos en el celular.</li>
+                                </ul>
+                            </div>
+                            <div class="md:col-span-2 mt-4 border-t pt-4 fragment">
+                                <h5 class="font-bold text-lg mb-2 text-rose-700">Documentación y Mantenimiento</h5>
+                                <ul class="list-disc list-inside text-sm space-y-1">
+                                    <li><strong>Entregar Credenciales:</strong> Anota y entrega al cliente todas las
+                                        contraseñas.</li>
+                                    <li><strong>Recomendar Mantenimiento:</strong> Aconseja limpiar los lentes
+                                        periódicamente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 4 -->
+
+
+            <!-- Diapositiva Final -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image8.png"
+                data-background-size="cover" data-transition="fade">
+                <div class="bg-black bg-opacity-50 text-white mt-10 p-4 rounded-lg flex flex-col items-center">
+                    <h2 class="font-bold [letter-spacing:0.14em!important]">¡GRACIAS!</h2>
+                    <h6 class="text-lg mb-1">&copy; 2025 - Módulo de Configuración</h6>
+                    <div class="text-base text-gray-300 mb-1">Diseñado para instructores y aprendices del SENA - Centro
+                        Minero</div>
+                    <div class="text-base font-semibold mb-0">Diego Alonso Ojeda Medina</div>
+                    <a href="mailto:dojedam@sena.edu.co" class="text-base font-semibold"
+                        style="color: var(--color-apple-600);">dojedam@sena.edu.co</a>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Archivos JS de Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        // Inicializa Reveal.js
+        Reveal.initialize({
+            slideNumber: true,
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide', // Transición por defecto
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            pdfSeparateFragments: false,
+            pdfMaxPagesPerSlide: 1
+        });
+    </script>
+</body>
+
+</html>

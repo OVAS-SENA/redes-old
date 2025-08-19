@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Módulo 2: Planificación y Diseño de CCTV</title>
+
+    <!-- Script de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Archivos CSS de Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+
+    <!-- Tema y estilos del SENA -->
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/sena-theme.css">
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/styles.css">
+
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Diapositiva de Título Principal -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image2.png"
+                data-background-size="contain">
+                <div class="absolute top-[32%] left-0 w-full flex flex-col items-start px-16 text-left">
+                    <h2 class="text-[var(--color-mine-shaft-700)] text-[1.1rem] font-bold m-0 leading-none mb-1">
+                        Módulo 2</h2>
+                    <h3 class="text-[var(--color-mine-shaft-700)] text-[2.2rem] font-extrabold m-0 leading-tight mb-2">
+                        Planificación y Diseño de Sistemas de CCTV</h3>
+                    <p class="text-[var(--color-mine-shaft-800)] text-base mb-4 max-w-xl">
+                        Aprende a transformar las necesidades de un cliente en un diseño técnico funcional, profesional
+                        y eficiente.
+                    </p>
+                    <p>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Diego Alonso Ojeda Medina
+                    </div>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Centro Minero - Regional Boyacá
+                    </div>
+                    <a href="mailto:dojedam@sena.edu.co"
+                        class="text-sm font-semibold text-[var(--color-apple-600)]">dojedam@sena.edu.co</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- INICIO LECCIÓN 1 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 1 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 1: Levantamiento
+                            de Requerimientos</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 2 horas</p>
+                        <p class="mt-6 text-base font-semibold">Presiona la flecha hacia abajo para comenzar</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-black-50)] border-l-8 border-[var(--color-eminence-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-eminence-400)] bg-[var(--color-eminence-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-apple-800)] mr-2">“</span>
+                                    Una instalación exitosa no empieza con el taladro, empieza con una libreta, un metro
+                                    y haciendo las preguntas correctas.<br>
+                                    <span class="block mt-2 text-base font-normal text-[var(--color-apple-800)]">
+                                        Aprenderemos a observar cada espacio con <span class="font-semibold">‘ojos de
+                                            instalador’</span> para diseñar soluciones a la medida.
+                                    </span>
+                                    <span class="text-3xl font-bold text-[var(--color-eminence-600)] ml-2"></span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.2: La Entrevista -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">1. La Entrevista con el Cliente: El Arte de Escuchar</h4>
+                    <p class="text-base mb-6">No se trata de "quiero cámaras", se trata de "¿qué problema quiere
+                        solucionar?".</p>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 text-left">
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">🎯 ¿Cuál es el objetivo?
+                            </h5>
+                            <p class="text-sm">¿Evitar robos? ¿Supervisar empleados? ¿Controlar acceso? ¿Cuidar a los
+                                niños?</p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">📍 ¿Áreas críticas?</h5>
+                            <p class="text-sm">Caja registradora, puerta principal, bodega, portón de la finca,
+                                parqueadero.</p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">👁️ ¿Nivel de detalle?</h5>
+                            <p class="text-sm">¿Solo ver si hay alguien (2MP) o identificar rostros/placas (4MP+)?</p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">💾 ¿Días de grabación?</h5>
+                            <p class="text-sm">Crucial para calcular el disco duro. Lo estándar es 15 o 30 días.</p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">📱 ¿Quién monitorea?</h5>
+                            <p class="text-sm">¿Solo en el sitio o desde el celular? Define la importancia de la red.
+                            </p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <h5 class="font-bold text-[var(--color-apple-700)] text-base">💰 ¿Presupuesto?</h5>
+                            <p class="text-sm">Nos ayuda a proponer una solución realista (análoga o IP).</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.3: Inspección del Sitio -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">2. La Inspección del Sitio (Site Survey)</h4>
+                    <div class="flex items-center gap-8 h-full">
+                        <div class="flex-1 text-left">
+                            <p class="text-base mb-4">Nunca diseñes un sistema basándote solo en lo que te cuentan.
+                                ¡Hay que caminar el lugar!</p>
+                            <ul class="text-sm space-y-2 list-disc list-inside">
+                                <li class="fragment"><strong>Crear un Croquis:</strong> Dibuja paredes, puertas y
+                                    ventanas.</li>
+                                <li class="fragment"><strong>Identificar Puntos Estratégicos:</strong> Entradas, cajas,
+                                    perímetros, puntos ciegos.</li>
+                                <li class="fragment"><strong>Analizar Iluminación:</strong> ¿Hay contraluz (WDR)?
+                                    ¿Oscuridad total (IR)?</li>
+                                <li class="fragment"><strong>Medir Distancias:</strong> Desde cada cámara hasta el
+                                    DVR/NVR.</li>
+                                <li class="fragment"><strong>Definir Ubicación del Grabador:</strong> Lugar seguro,
+                                    ventilado, con energía e internet.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-1 fragment">
+                            <img src="https://www.manageengine.com/latam/network-monitoring/images/local-area-network-map.png"
+                                alt="Croquis de una visita técnica" class="rounded-lg shadow-lg">
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 1 -->
+
+            <!-- INICIO LECCIÓN 2 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 2 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image4.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center text-white">
+                        <h2 class="text-[2.2rem] font-bold">Lección 2: Diseño Estratégico del Sistema</h2>
+                        <div class="w-[150px] h-[3px] bg-white my-3"></div>
+                        <p class="text-base font-normal">Tiempo estimado: 1.5 horas</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-blue-whale-50)] border-l-8 border-[var(--color-blue-whale-600)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-blue-whale-400)] bg-[var(--color-blue-whale-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span class="text-3xl font-bold text-[var(--color-blue-whale-700)] mr-2">“</span>
+                                    Ahora, como arquitectos de seguridad, vamos a plasmar la información en un
+                                    diseño.<br>
+                                    <span class="block mt-2 text-base font-normal text-[var(--color-blue-whale-700)]">
+                                        Un buen diseño ahorra dinero, tiempo y problemas futuros.
+                                    </span>
+                                    <span class="text-3xl font-bold text-[var(--color-blue-whale-600)] ml-2">”</span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.2: Selección de Equipos -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <!-- Columna de texto -->
+                        <div class="flex-1">
+                            <h4 class="text-[1.2rem] font-bold mb-2">1. Selección de Cámaras y Equipos</h4>
+                            <div class="bg-white p-6 rounded-lg shadow-lg text-left">
+                                <h5 class="text-xl font-bold mb-4 text-[var(--color-blue-whale-700)]">Ejemplo: Tienda en
+                                    Moniquirá</h5>
+                                <div class="space-y-4 text-sm">
+                                    <div class="fragment">
+                                        <p class="font-semibold">📍 Entrada (Exterior):</p>
+                                        <p class="pl-4">Cliente quiere ver la calle y quién entra; hay sol fuerte.
+                                            <br><strong>Solución:</strong> Cámara <span class="font-bold">Bala
+                                                4MP</span>
+                                            (disuasoria), lente 2.8mm (angular), con <span class="font-bold">WDR
+                                                real</span> y
+                                            carcasa metálica.
+                                        </p>
+                                    </div>
+                                    <div class="fragment">
+                                        <p class="font-semibold">📍 Caja Registradora (Interior):</p>
+                                        <p class="pl-4">Cliente quiere ver billetes y transacciones.
+                                            <br><strong>Solución:</strong> Cámara <span class="font-bold">Domo
+                                                5MP</span>
+                                            (discreta), lente 4mm (plano más cerrado).
+                                        </p>
+                                    </div>
+                                    <div class="fragment">
+                                        <p class="font-semibold">📍 Bodega (Interior):</p>
+                                        <p class="pl-4">Poca luz, necesita ver inventario general.
+                                            <br><strong>Solución:</strong> Cámara Domo o Bala 2MP con <span
+                                                class="font-bold">buenos infrarrojos (IR 20m)</span>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Columna de imagen -->
+                        <div class="flex-shrink-0 w-full md:w-80 mt-6 md:mt-0">
+                            <img src="https://camarasdevigilancia.pro/wp-content/uploads/2019/09/camaras-vigilancia-supermercado.jpg"
+                                alt="Ejemplo CCTV Tienda" class="rounded-lg shadow-lg w-full h-56 object-cover">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.3: Ubicación y Cableado -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white p-4 rounded-lg shadow-md text-left fragment flex flex-col items-start">
+                            <h5 class="font-bold text-lg mb-2">2. Ubicación y Ángulos</h5>
+                            <p class="text-sm font-bold text-[var(--color-blue-whale-600)] mb-2">La Regla de Oro:</p>
+                            <p class="text-sm mb-4">Instala las cámaras en las <span class="font-bold">esquinas
+                                    superiores</span>, apuntando hacia abajo (~45°). Esto maximiza la cobertura y
+                                dificulta el vandalismo.</p>
+                            <img src="https://www.redatel.net/img/ubicacion-de-camaras.jpg"
+                                alt="Ejemplo ubicación de cámara CCTV"
+                                class="rounded-md shadow w-full h-36 object-cover mt-2">
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md text-left fragment flex flex-col items-start">
+                            <h5 class="font-bold text-lg mb-2">3. Planificación del Cableado</h5>
+                            <p class="text-sm font-bold text-[var(--color-blue-whale-600)] mb-2">Trazado de Rutas:</p>
+                            <p class="text-sm mb-4">En tu croquis, dibuja la línea de cada cable. Busca la ruta más
+                                <span class="font-bold">corta y protegida</span>. Usa canaletas en interiores y tubería
+                                Conduit en exteriores.
+                            </p>
+                            <img src="https://admin.electrotec.pe/elements/images/image-d78199d6aa64dcd54e1306443ae73851.jpg"
+                                alt="Ejemplo de cableado para CCTV"
+                                class="rounded-md shadow w-full h-36 object-cover mt-2">
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 2 -->
+
+            <!-- INICIO LECCIÓN 3 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 3 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 3: Elaboración
+                            de una Cotización Profesional</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1 hora</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.1: Introducción -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-turquoise-blue-50)] border-l-8 border-[var(--color-turquoise-blue-500)] text-[var(--color-mine-shaft-900)] p-8 rounded-r-lg shadow-lg flex flex-col md:flex-row items-center gap-8">
+                        <div class="flex-1">
+                            <p class="font-bold text-xl mb-4">Introducción del Instructor</p>
+                            <blockquote
+                                class="p-4 my-2 border-s-4 border-[var(--color-turquoise-blue-400)] bg-[var(--color-turquoise-blue-100)] rounded-md shadow-sm">
+                                <p
+                                    class="text-xl italic font-medium leading-relaxed text-[var(--color-mine-shaft-900)]">
+                                    <span
+                                        class="text-3xl font-bold text-[var(--color-turquoise-blue-700)] mr-2">“</span>
+                                    Una cotización no es solo una lista de precios. Es la carta de presentación de tu
+                                    trabajo.<br>
+                                    <span
+                                        class="block mt-2 text-base font-normal text-[var(--color-turquoise-blue-700)]">
+                                        Debe ser clara, completa y profesional para generar confianza.
+                                    </span>
+                                    <span
+                                        class="text-3xl font-bold text-[var(--color-turquoise-blue-600)] ml-2">”</span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="flex-shrink-0 w-full md:w-56">
+                            <img src="https://daom-assets.github.io/presentacion/images/quotation.png" alt="Icon"
+                                class="w-full h-28 object-contain mt-2">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.2: Componentes de la Cotización -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image6.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] text-[var(--color-white-50)] font-bold mb-4">Componentes de una Buena
+                        Cotización</h4>
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-left text-sm max-w-4xl mx-auto">
+                        <div class="fragment border-b pb-2 mb-2">
+                            <h5 class="font-bold text-lg text-[var(--color-apple-700)]">1. Listado de Equipos
+                                (Hardware)</h5>
+                            <p class="text-xs text-gray-500">Sé específico con modelos y características.</p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>2x</strong> Cámara Bala Metálica 4MP, lente 2.8mm, IR 30m, IP67</li>
+                                <li><strong>1x</strong> DVR de 8 Canales, soporta cámaras de hasta 5MP</li>
+                                <li><strong>1x</strong> Disco Duro para Videovigilancia de 2TB</li>
+                            </ul>
+                        </div>
+                        <div class="fragment border-b pb-2 mb-2">
+                            <h5 class="font-bold text-lg text-[var(--color-apple-700)]">2. Materiales de
+                                Instalación (Insumos)</h5>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>80 mts</strong> de Cable UTP Cat 5e 100% Cobre</li>
+                                <li><strong>4 pares</strong> de Video Baluns HD y Conectores DC</li>
+                                <li><strong>4x</strong> Cajas de Paso Plásticas 10x10cm</li>
+                            </ul>
+                        </div>
+                        <div class="fragment border-b pb-2 mb-2">
+                            <h5 class="font-bold text-lg text-[var(--color-apple-700)]">3. Mano de Obra y
+                                Servicios</h5>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Instalación y montaje de 4 puntos de cámara.</li>
+                                <li>Configuración de DVR y grabación por movimiento.</li>
+                                <li>Configuración de la aplicación móvil en 2 celulares.</li>
+                            </ul>
+                        </div>
+                        <div class="fragment text-right mt-4">
+                            <p class="text-lg font-bold">TOTAL: $ X.XXX.XXX</p>
+                            <p class="text-xs text-gray-600">Forma de pago: 50% anticipo, 50% contra entrega.</p>
+                            <p class="text-xs text-gray-500 mt-1">Garantía: 1 año en equipos, 3 meses en instalación.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+            <!-- FIN LECCIÓN 3 -->
+
+            <!-- Diapositiva Final -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image8.png"
+                data-background-size="cover" data-transition="fade">
+                <div class="bg-black bg-opacity-50 text-white mt-10 p-4 rounded-lg flex flex-col items-center">
+                    <h2 class="font-bold [letter-spacing:0.14em!important]">¡GRACIAS!</h2>
+                    <h6 class="text-lg mb-1">&copy; 2025 - Módulo de Planificación y Diseño</h6>
+                    <div class="text-base text-gray-300 mb-1">Diseñado para instructores y aprendices del SENA - Centro
+                        Minero</div>
+                    <div class="text-base font-semibold mb-0">Diego Alonso Ojeda Medina</div>
+                    <a href="mailto:dojedam@sena.edu.co" class="text-base font-semibold"
+                        style="color: var(--color-apple-600);">dojedam@sena.edu.co</a>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Archivos JS de Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        // Inicializa Reveal.js
+        Reveal.initialize({
+            slideNumber: true,
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide', // Transición por defecto
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            pdfSeparateFragments: false,
+            pdfMaxPagesPerSlide: 1
+        });
+    </script>
+</body>
+
+</html>

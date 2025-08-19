@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Módulo 1: Fundamentos de CCTV</title>
+
+    <!-- Script de Tailwind CSS (Aún necesario para las clases que no están en el tema) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Archivos CSS de Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+
+    <!-- Tema y estilos del SENA -->
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/sena-theme.css">
+    <link rel="stylesheet" href="https://daom-assets.github.io/presentacion/css/styles.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Diapositiva de Título Principal -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image2.png"
+                data-background-size="contain">
+                <div class="absolute top-[32%] left-0 w-full flex flex-col items-start px-16">
+                    <h2
+                        class="text-[var(--color-mine-shaft-700)] text-[1.1rem] font-bold m-0 leading-none mb-1 text-left">
+                        Módulo 1</h2>
+                    <h3
+                        class="text-[var(--color-mine-shaft-700)] text-[2.2rem] font-extrabold m-0 leading-none mb-2 text-left">
+                        Fundamentos de CCTV</h3>
+                    <p class="text-[var(--color-mine-shaft-800)] text-base mb-4 max-w-xl text-left">
+                        Descubre los conceptos esenciales, tecnologías y aplicaciones que forman la base de cualquier
+                        sistema de videovigilancia moderno.
+                    </p>
+                    <p>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Diego Alonso Ojeda Medina
+                    </div>
+                    <div class="text-[var(--color-mine-shaft-700)] text-sm font-semibold mb-0 leading-tight">
+                        Centro Minero - Regional Boyacá
+                    </div>
+                    <a href="mailto:dojedam@sena.edu.co"
+                        class="text-sm font-semibold text-[var(--color-apple-600)]">dojedam@sena.edu.co</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- INICIO LECCIÓN 1 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 1 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 1: Introducción
+                            al Mundo del CCTV</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1.5 horas</p>
+                        <p class="mt-6 text-base font-semibold">Presiona la flecha hacia abajo para comenzar</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.1: Bienvenida -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-apple-50)] border-l-8 border-[var(--color-apple-600)] text-[var(--color-mine-shaft-900)] p-6 rounded-r-lg shadow-lg text-left">
+                        <p class="font-bold text-xl mb-3">¡Bienvenidos Futuros Expertos en Seguridad!</p>
+                        <blockquote class="text-lg italic">"Olvídense de la idea de que esto es solo 'pegar cámaras en
+                            la pared'. Lo que aprenderán aquí es una habilidad muy demandada que protege personas,
+                            hogares y negocios en toda Colombia. Vamos a entender cómo funcionan los 'ojos' que nunca
+                            duermen."</blockquote>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.2: ¿Qué es? (TU DISEÑO DE REFERENCIA) -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex items-center gap-8 h-full">
+                        <div class="flex-1 text-left">
+                            <h4 class="text-[1.1rem] font-bold text-[var(--color-mine-shaft-800)]">1. ¿Qué es un Sistema
+                                de Videovigilancia?</h4>
+                            <p class="text-[0.9rem] my-2">Un Sistema de Videovigilancia, o CCTV (Circuito Cerrado de
+                                Televisión), es una instalación de equipos conectados que generan un circuito de
+                                imágenes privado, visible solo por un grupo determinado de personas.</p>
+                            <div class="space-y-2">
+                                <div class="bg-white p-2 rounded-lg shadow-md fragment" data-fragment-index="1">
+                                    <h5 class="text-[0.9rem] font-bold text-[var(--color-apple-600)]">Disuasión</h5>
+                                    <p class="text-xs">La simple presencia de cámaras visibles puede desalentar a
+                                        posibles delincuentes.</p>
+                                </div>
+                                <div class="bg-white p-2 rounded-lg shadow-md fragment" data-fragment-index="2">
+                                    <h5 class="text-[0.9rem] font-bold text-[var(--color-apple-600)]">Supervisión y
+                                        Monitoreo</h5>
+                                    <p class="text-xs">Vigilar en tiempo real lo que sucede en un lugar.</p>
+                                </div>
+                                <div class="bg-white p-2 rounded-lg shadow-md fragment" data-fragment-index="3">
+                                    <h5 class="text-[0.9rem] font-bold text-[var(--color-apple-600)]">Registro de
+                                        Evidencia</h5>
+                                    <p class="text-xs">Grabar eventos para revisión posterior, crucial para
+                                        investigaciones.</p>
+                                </div>
+                                <div class="bg-white p-2 rounded-lg shadow-md fragment" data-fragment-index="4">
+                                    <h5 class="text-[0.9rem] font-bold text-[var(--color-apple-600)]">Control y
+                                        Seguridad</h5>
+                                    <p class="text-xs">Integrado con otros sistemas, puede servir para controlar accesos
+                                        o activar alarmas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 fragment" data-fragment-index="0">
+                            <img src="https://i.pinimg.com/736x/c2/36/fb/c236fbe4f0b74801ea3cc2a74b9469a2.jpg"
+                                alt="Diagrama de un sistema CCTV" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.3: Evolución (Timeline) -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">2. Breve Historia y Evolución del CCTV</h4>
+                    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 w-11/12 mx-auto">
+                        <!-- Imagen ilustrativa -->
+                        <div class="flex-1 flex justify-center items-center">
+                            <img src="https://scontent.fbog2-4.fna.fbcdn.net/v/t1.6435-9/151467313_4112046098839971_8103517833399092097_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHO_cOyWAKyA121KPlKwK-q14-mKEb-bejXj6YoRv5t6ACYit1Td0S4-_c0nRP0MSxAf_djfUe9EDgziJ8ao2ut&_nc_ohc=2-wRGX4AEsEQ7kNvwEhBBoJ&_nc_oc=Adm-rNI4sOQ-PD0uucSReGsLOAqVE-JV7KF7rFVzc69bRpLz8A6vXBrelsTSLh3v8Po&_nc_zt=23&_nc_ht=scontent.fbog2-4.fna&_nc_gid=U5O_LFVh99yWmGAo3DPG8Q&oh=00_AfV4sD3fgxsEUDVtFkXyXbinJWiFmbS8JDa-kzTGWRvvSg&oe=68CBBECA"
+                                alt="Evolución del CCTV" class="rounded-lg shadow-lg max-h-80 object-contain">
+                        </div>
+                        <!-- Texto de la línea de tiempo -->
+                        <div class="flex-1">
+                            <div class="border-l-4 border-[var(--color-apple-200)] pl-6 py-4">
+                                <div class="mb-6 fragment">
+                                    <h5 class="font-bold text-base text-[var(--color-apple-700)]">Años 40-70: Los
+                                        Inicios Análogos</h5>
+                                    <p class="text-sm text-justify">Cámaras de tubo, solo visualización en vivo. ¡Sin
+                                        grabación! Tecnología costosa.</p>
+                                </div>
+                                <div class="mb-6 fragment">
+                                    <h5 class="font-bold text-base text-[var(--color-apple-700)]">Años 80-90: La Era del
+                                        VCR</h5>
+                                    <p class="text-sm text-justify">Se introducen las grabadoras de videocasetes (VHS).
+                                        Grabación manual y de baja calidad.</p>
+                                </div>
+                                <div class="mb-6 fragment">
+                                    <h5 class="font-bold text-base text-[var(--color-apple-700)]">Finales 90s: La
+                                        Revolución Digital (DVR)</h5>
+                                    <p class="text-sm text-justify">El DVR digitaliza y guarda en disco duro. ¡El CCTV
+                                        se masifica!</p>
+                                </div>
+                                <div class="fragment">
+                                    <h5 class="font-bold text-base text-[var(--color-apple-700)]">Mediados 2000s - Hoy:
+                                        La Era de la Red (NVR y Cámaras IP)</h5>
+                                    <p class="text-sm text-justify">Las Cámaras IP son mini-computadoras que envían
+                                        video por la red de datos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.4: Diagramas Análogo vs IP -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <p class="text-center text-[var(--color-mine-shaft-800)] mb-4 max-w-4xl mx-auto text-base">
+                        Observa cómo se ven y se conectan los sistemas CCTV análogos y digitales (IP). Estas imágenes
+                        resumen visualmente las diferencias clave.
+                    </p>
+                    <div class="flex gap-6 justify-center items-center">
+                        <div class="bg-white rounded-lg shadow-lg p-3 fragment" data-fragment-index="1">
+                            <img src="https://www.tecnoseguro.com/images/stories/TECNOSeguro-Alto-Trafico/Que_es_CCTV/TECNOSeguro-CCTV-8.png"
+                                alt="Diagrama CCTV Análogo" class="w-72 rounded mb-2">
+                            <p class="text-center font-semibold text-sm text-[var(--color-blue-whale-950)]">Sistema CCTV
+                                Análogo</p>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg p-3 fragment" data-fragment-index="2">
+                            <img src="https://www.tecnoseguro.com/images/stories/TECNOSeguro-Alto-Trafico/Que_es_CCTV/TECNOSeguro-CCTV-9.png"
+                                alt="Diagrama CCTV IP" class="w-72 rounded mb-2">
+                            <p class="text-center font-semibold text-sm text-[var(--color-apple-700)]">Sistema CCTV IP
+                                (Digital)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 1.5: Tabla Comparativa -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image6.png"
+                    data-background-size="cover">
+                    <h4 class="text-[var(--color-apple-600)] text-[1.2rem] font-bold text-left mb-3">3. Conceptos Clave:
+                        Análogo vs. IP</h4>
+                    <table class="w-full mx-auto border-collapse text-sm">
+                        <thead class="bg-[var(--color-mine-shaft-900)] text-white font-semibold">
+                            <tr>
+                                <th class="border border-[var(--color-concrete-200)] p-2 text-left">Característica</th>
+                                <th
+                                    class="border border-[var(--color-concrete-200)] p-2 text-left bg-[var(--color-blue-whale-950)]">
+                                    Sistema Análogo HD</th>
+                                <th
+                                    class="border border-[var(--color-concrete-200)] p-2 text-left bg-[var(--color-apple-800)]">
+                                    Sistema IP</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-[var(--color-concrete-50)]">
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">Cómo viaja el video
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Señal sin comprimir por
+                                    <strong>cable coaxial</strong> al DVR.
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Datos digitales por
+                                    <strong>cable de red (UTP)</strong>.
+                                </td>
+                            </tr>
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">El "Cerebro"</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">El <strong>DVR</strong>
+                                    recibe, procesa y graba.</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">La <strong>Cámara IP</strong>
+                                    captura, procesa y comprime.</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">Calidad de Imagen
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Buena a excelente (hasta 4K),
+                                    pero con límite técnico.
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Potencialmente superior, con
+                                    resoluciones mucho más altas (12MP+).
+                                </td>
+                            </tr>
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">Alimentación</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Cable de alimentación por
+                                    separado.</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2"><strong>PoE (Power over
+                                        Ethernet)</strong>: Energía y datos por el mismo cable.</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">Costo</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Generalmente.
+                                    <strong>más económico</strong>.
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Generalmente más costoso por
+                                    cámara, pero más flexible.</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td class="border border-[var(--color-concrete-200)] p-2 font-bold">Complejidad</td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Más sencillo de instalar
+                                    <strong>("Plug and Play")</strong>.
+                                </td>
+                                <td class="border border-[var(--color-concrete-200)] p-2">Requiere conocimientos básicos
+                                    de <strong>redes</strong>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 1 -->
+
+            <!-- INICIO LECCIÓN 2 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 2 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image4.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center text-white">
+                        <h2 class="text-[2.2rem] font-bold">Lección 2: Tipos de Cámaras y Características</h2>
+                        <div class="w-[150px] h-[3px] bg-white my-3"></div>
+                        <p class="text-base font-normal">Tiempo estimado: 1.5 horas</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.1: Tipos por Formato -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">1. Tipos de Cámaras por Formato</h4>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-white rounded-lg shadow-lg text-center fragment">
+                            <img src="https://hikvisioncolombia.com/wp-content/uploads/2019/03/DS2CD2135FWDI28.png"
+                                alt="Cámara Domo" class="w-full h-28 object-contain mt-2">
+                            <div class="p-2">
+                                <h5 class="text-base font-bold">Cámara Domo</h5>
+                                <p class="text-sm mb-2"><strong>Ventajas:</strong> Discretas, estéticas, antivandálicas.
+                                </p>
+                                <p class="text-sm font-medium"><strong>Uso Ideal:</strong> Interiores
+                                    (oficinas,
+                                    tiendas).</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg text-center fragment">
+                            <img src="https://hikvisioncolombia.com/wp-content/uploads/2019/03/DS2CD1021I.png"
+                                alt="Cámara Bala" class="w-full h-28 object-contain mt-2">
+                            <div class="p-2">
+                                <h5 class="text-base font-bold">Cámara Bala (Bullet)</h5>
+                                <p class="text-sm mb-2"><strong>Ventajas:</strong> Visibles (disuasorias), ajuste fácil,
+                                    IR
+                                    potente.</p>
+                                <p class="text-sm font-medium"><strong>Uso Ideal:</strong> Exteriores
+                                    (parqueaderos, fachadas).</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg text-center fragment">
+                            <img src="https://hikvisioncolombia.com/wp-content/uploads/2019/03/DS-2AE5225TI-A.png"
+                                alt="Cámara PTZ" class="w-full h-28 object-contain mt-2">
+                            <div class="p-2">
+                                <h5 class="text-base font-bold">Cámara PTZ</h5>
+                                <p class="text-sm mb-2"><strong>Ventajas:</strong> Robóticas (Pan-Tilt-Zoom), control
+                                    remoto.
+                                </p>
+                                <p class="text-sm font-medium"><strong>Uso Ideal:</strong> Grandes áreas
+                                    (centros
+                                    comerciales).</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.2: Tipos por Formato (Cont.) -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-4">1. Tipos de Cámaras por Formato (Cont.)</h4>
+                    <div class="grid grid-cols-2 gap-6 w-2/3 mx-auto">
+                        <div class="bg-white rounded-lg shadow-lg text-center fragment">
+                            <img src="https://hikvisioncolombia.com/wp-content/uploads/2019/09/DS-2CD6362F-IVS-1.27.png"
+                                alt="Cámara Ojo de Pez" class="w-full h-28 object-contain mt-2">
+                            <div class="p-2">
+                                <h5 class="text-base font-bold">Ojo de Pez (Fisheye)</h5>
+                                <p class="text-[0.8rem] m-2"><strong>Ventajas:</strong> Visión panorámica de 180° o
+                                    360°,
+                                    cubre
+                                    grandes áreas con una sola cámara.</p>
+                                <p class="text-[0.8rem] m-2"><strong>Uso Ideal:</strong> Salones, almacenes,
+                                    recepciones.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg text-center fragment">
+                            <img src="https://puntoscolombia.vtexassets.com/arquivos/ids/26372482-800-auto?v=638460237120800000&width=800&height=auto&aspect=true"
+                                alt="Cámara Oculta o Espía" class="w-full h-28 object-contain mt-2">
+                            <div class="p-2">
+                                <h5 class="text-base font-bold">Oculta o Espía</h5>
+                                <p class="text-[0.8rem] mb-2"><strong>Ventajas:</strong> Muy discretas, pasan
+                                    desapercibidas, ideales
+                                    para vigilancia encubierta.</p>
+                                <p class="text-[0.8rem]"><strong>Uso Ideal:</strong> Oficinas,
+                                    investigaciones, lugares donde se requiere discreción.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 2.3: Características Técnicas -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">2. El ADN de la Cámara: Características Técnicas</h4>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/fefce8/713f12?text=MP"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono Resolución">
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-base text-left text-[var(--color-apple-600)] ">Resolución
+                                        (MP)</h5>
+                                    <p class="text-sm text-left">Calidad y nivel de detalle. A más megapíxeles, más
+                                        nítida la
+                                        imagen. (Ej: 2MP, 8MP/4K).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/ffe4e6/9d174d?text=Lente"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono Lente">
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-base text-left text-[var(--color-apple-600)]">Tipo de
+                                        Lente</h5>
+                                    <p class="text-sm text-left">Es el "ojo" de la cámara, Determina el ángulo de
+                                        visión. Puede ser Fijo, Varifocal o Motorizado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/ede9fe/5b21b6?text=IR"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono Visión Nocturna">
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-base text-left text-[var(--color-apple-600)]">Visión
+                                        Nocturna (IR)</h5>
+                                    <p class="text-sm text-left">Permite "ver" en total oscuridad usando LEDs
+                                        infrarrojos. Se mide en metros.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg shadow-md fragment">
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/ecfccb/365314?text=WDR"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono WDR">
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-base text-left text-[var(--color-apple-600)]">WDR (Wide
+                                        Dynamic Range)</h5>
+                                    <p class="text-sm text-left">Crucial para escenas con alto contraste de luz (ej. una
+                                        entrada),, equilibrando zonas oscuras y brillantes.</p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 2 -->
+
+            <!-- INICIO LECCIÓN 3 (Diapositivas Verticales) -->
+            <section>
+                <!-- Slide Maestra de la Lección 3 -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div class="flex flex-col justify-center items-center h-full text-center">
+                        <h2 class="text-[2.2rem] font-bold text-[var(--color-mine-shaft-800)]">Lección 3: Componentes
+                            Esenciales del Sistema</h2>
+                        <div class="w-[100px] h-[3px] bg-[var(--color-apple-600)] my-3"></div>
+                        <p class="text-base font-light text-[var(--color-black-950)]">Tiempo estimado: 1 hora</p>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.1: Componentes -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <h4 class="text-[1.2rem] font-bold mb-6">Componentes de un CCTV</h4>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white p-4 rounded-lg shadow-lg fragment">
+                            <h6 class="text-[1.2rem] font-bold mb-0 w-full">Grabador: DVR vs. NVR</h6>
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/fefce8/713f12?text=DVR/NVR"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono de Grabador">
+                                <p class="text-sm text-left sm:text-justify">
+                                    El corazón del sistema. El <strong>DVR</strong> es para sistemas análogos
+                                    (conectores BNC) y el <strong>NVR</strong> para sistemas IP (conectores RJ45).
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-lg fragment">
+                            <h6 class="text-[1.2rem] font-bold mb-0 w-full">Almacenamiento: HDD</h6>
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/eff6ff/1e293b?text=HDD"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono HDD">
+                                <p class="text-sm text-left sm:text-justify">
+                                    La memoria del sistema. Se usan discos especiales para videovigilancia
+                                    (diseñados para trabajar 24/7), como WD Purple o Seagate SkyHawk.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-lg fragment">
+                            <h6 class="text-[1.2rem] font-bold mb-0 w-full">Cableado y Conectores</h6>
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/fff7ed/7c2d12?text=Cable"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono Cableado">
+                                <p class="text-sm text-left sm:text-justify">
+                                    Las venas del sistema. <strong>Coaxial</strong> para análogo y <strong>UTP
+                                        (cable de red)</strong> para IP y análogo con Video Baluns.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-lg fragment">
+                            <h6 class="text-[1.2rem] font-bold mb-0 w-full">Alimentación</h6>
+                            <div class="flex flex-col sm:flex-row items-center gap-4">
+                                <img src="https://placehold.co/80x80/ecfdf5/065f46?text=12V/PoE"
+                                    class="rounded-md w-20 h-20 object-contain" alt="Icono Alimentación">
+                                <p class="text-sm text-left sm:text-justify">
+                                    Las cámaras necesitan energía (12V DC). Se usan fuentes individuales,
+                                    centralizadas o <strong>PoE</strong> en sistemas IP.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide Vertical 3.2: Actividad Práctica -->
+                <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image3.png"
+                    data-background-size="cover">
+                    <div
+                        class="bg-[var(--color-lightning-yellow-100)] border-l-8 border-[var(--color-lightning-yellow-600)] text-[var(--color-mine-shaft-900)] p-6 rounded-r-lg shadow-lg text-left">
+                        <p class="font-bold text-xl mb-3">Actividad Práctica Final: ¡Manos a la Obra!</p>
+                        <p class="text-lg">Es hora de tocar, examinar y conectar los componentes. Identifiquen cada
+                            parte y expliquen su función. Conecten una cámara análoga a un DVR y una cámara IP a un NVR.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <!-- FIN LECCIÓN 3 -->
+
+            <!-- Diapositiva Final -->
+            <section data-background-image="https://daom-assets.github.io/presentacion/images/wallpapers/image8.png"
+                data-background-size="cover" data-transition="fade">
+                <div class="bg-black bg-opacity-50 text-white mt-10 p-0 rounded-lg flex flex-col items-center">
+                    <h2 class="font-bold [letter-spacing:0.14em!important]">¡GRACIAS!</h2>
+                    <h6 class="text-lg mb-1">&copy; 2025 - Módulo de Fundamentos de CCTV</h6>
+                    <div class="text-base text-gray-300 mb-1">Diseñado para instructores y aprendices del SENA - Centro
+                        Minero</div>
+                    <div class="text-base font-semibold mb-0">Diego Alonso Ojeda Medina</div>
+                    <a href="mailto:dojedam@sena.edu.co" class="text-base font-semibold"
+                        style="color: #39B54A;">dojedam@sena.edu.co</a>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Archivos JS de Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        // Inicializa Reveal.js
+        Reveal.initialize({
+            slideNumber: true,
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide', // Transición por defecto
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            pdfSeparateFragments: false,
+            pdfMaxPagesPerSlide: 1
+        });
+    </script>
+</body>
+
+</html>
